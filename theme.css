@@ -221,3 +221,8 @@ input, textarea, select {
     width: fit-content !important;
     border: 2px solid #7a080a !important;
 }
+.card {
+    background-color: #f3e6de !important;
+    width: fit-content !important;
+    border: 2px solid #7a080a !important;
+}
