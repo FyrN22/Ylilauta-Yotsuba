@@ -41,7 +41,7 @@ header h2 { font-style: italic; }
 header h2 { font-size: 16px; }
 :root { --font-family: Arial, sans-serif; }
 body {
-    background-color: #3b4252 !important;
+    background-color: #2e3440 !important;
     /*background:  url('https://raw.githubusercontent.com/FyrN22/Ylis-classic-theme/main/image.png') right center fixed !important;*/
     -webkit-background-size: cover;
     background-repeat: no-repeat !important;
@@ -60,7 +60,7 @@ body {
 }
 .thread {
     background-color: rgba(255, 255, 255, .0) !important;
-    border: 1px solid #2e3440 !important;
+    border: 1px solid #3b4252 !important;
     border-radius: 0px !important;
     border-left: 0px !important;
     border-right: 0px !important;
@@ -71,7 +71,7 @@ body {
     background-size: cover !important;
     background-color: #434c5e !important;
     width: fit-content !important;
-    border: 1px solid #2e3440 !important;
+    border: 3px solid #3b4252 !important;
     border-radius: 3px !important;
     border-left: 0px !important;
     border-top: 0px !important;
@@ -219,12 +219,6 @@ input, textarea, select {
 }
 .dropdown {   
     background-size: cover !important;
-    background-color: #3b4252 !important;
-    width: fit-content !important;
-    border: 2px solid #81a1c1 !important;
-}
-
-.card.tooltip {
     background-color: #3b4252 !important;
     width: fit-content !important;
     border: 2px solid #81a1c1 !important;
