@@ -226,3 +226,7 @@ input, textarea, select {
     width: fit-content !important;
     border: 2px solid #7a080a !important;
 }
+.icon-bookmark2 {
+    border: 0px solid #7a080a !important; 
+    background-color:rgba(255, 255, 255, .0) !important;
+}
