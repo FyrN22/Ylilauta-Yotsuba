@@ -7,9 +7,7 @@
 }.category-menu-wrapper .category-menu.hidden {
    display: block !important;
 }
-/* Make thumbnail background black */
 .file img,.file canvas{background:transparent}
-/* Limit polls sizes */
 .poll {
     max-width: 600px;
 }
@@ -238,10 +236,12 @@ input, textarea, select {
 }
 
 #navbar {
-    height: 25px !important; 
+    height: 25px !important;
+    background-color: #FED8B4 !important;
 }    
 
 #navbar::before {
+     background-color: #FED8B4 !important;
      height: 25px;
 }
 
@@ -373,3 +373,73 @@ input, textarea, select {
     background: rgba(255, 255, 255, .0) !important;
     color: #880202 !important;
 }
+
+.toggle-button {
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px;
+}
+
+.toggle-button::before {
+    content: "[";
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px;
+}
+
+.toggle-button::after {
+    content: "]";
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px;
+}
+
+.toggle-button.active {
+    color:#133b5e !important;
+    background: rgba(255, 255, 255, .0) !important;
+}
+
+.button.top-open-button {
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px !important;
+}
+
+.button.top-open-button::before {
+    content: "[";
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px;
+}
+
+.button.top-open-button::after {
+    content: "]";
+    background: rgba(255, 255, 255, .0) !important;
+    border: 0px;
+}
+
+.button.top-open-button:hover {
+    color: #133b5e !important;
+}
+
+.card.poll {
+    background-color:#F3E6DE !important;
+    border: 1px solid #7a080a !important;
+    border-radius: 0px !important;
+}
+
+.poll-option.result {
+    background-color:#F3E6DE !important;
+    border: 1px solid #7a080a !important;
+    border-radius: 0px !important;
+}
+
+progress {
+    border-radius: 0px !important;    
+}
+
+.card.thread.op-post.op {
+    background: #F3E6DE !important;
+    border: 1px #D9BFB7 solid !important;
+}
+
+.card.thread.op-post.op.own {
+    background: #F3E6DE !important;
+    border: 1px #7a080a solid !important;
+}
+
