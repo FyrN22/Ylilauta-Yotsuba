@@ -1,4 +1,4 @@
-#sidebar .category-menu {
+sidebar .category-menu {
     display: block;
 }.toggle-category {
     display: none !important;
@@ -114,6 +114,7 @@ body {
 }
 
 .icon-zoom-in {
+    display:none !important;
     background-color:#f3e6de !important;
     border: 1px solid #7a080a !important;
     color:#7a080a !important;
@@ -222,6 +223,7 @@ input, textarea, select {
 .dropdown {   
     background-size: cover !important;
     background-color: #f3e6de !important;
+    float: left !important;
     width: fit-content !important;
     border: 2px solid #7a080a !important;
 }
@@ -499,4 +501,18 @@ progress {
 
 .nappi.merkki:hover {
     color: #bb8866 !important; 
+}
+
+.square-button.icon-bookmark2 {
+    background-color: #EEAA88 !important;
+    border: 1px #7a080a solid !important;
+}
+
+.button.return-to {
+    background: #EEAA88 !important;
+}
+
+.square-button.icon-cog {
+    background-color: #EEAA88 !important;
+    border: 1px #7a080a solid !important;
 }
