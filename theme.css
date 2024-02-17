@@ -18,12 +18,12 @@
 justify-content: left;
 }
 
-html { font-family: Arial, sans-serif; }
+ html { font-family: Arial, sans-serif; }
 .post-meta .name { font-family: Arial, sans-serif !important ; }
 header h1 { font-size: 34px !important; }
 header h1 { font-family: Arial !important; }
 header h1 { letter-spacing: -1px !important; }
-/*header h1 { font-weight: 700 !important; } */
+header h1 { font-weight: 700 !important; } 
 header h2 { font-style: italic; }
 header h2 { font-size: 16px; }
 :root { --font-family: Arial, sans-serif; }
@@ -287,54 +287,103 @@ input, textarea, select {
 .icon-alarm.notifications-button::before {
     height: 25px !important;
     width: fit-content !important;
-    content: "Ilmoitukset/"
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
+    content: "Ilmoitukset"
 }
+
+.icon-alarm.notifications-button::after {
+    height: 25px !important;
+    padding: 3px !important;
+    color: #bb8866 !important;
+    font-family: Arial, sans-serif !important;
+    width: fit-content !important;
+    content: "/"
+}
+
 
 .icon-alarm.notifications-button {
     height: 25px !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
     width: fit-content !important;
 }
 
 .icon-bookmark2.followed-button::before {
     height: 25px !important;
     width: fit-content !important;
-    content: "Seuratut/"
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    content: "Seuratut"
+}
+
+.icon-bookmark2.followed-button::after {
+    height: 25px !important;
+    padding: 3px !important;
+    color: #bb8866 !important;
+    font-family: Arial, sans-serif !important;
+    width: fit-content !important;
+    content: "/"
 }
 
 .icon-bookmark2.followed-button {
     height: 25px !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
     width: fit-content !important;
 }
 
 .icon-enter-up2::before {
     height: 25px !important;
+    font-family: Arial, sans-serif !important;
     width: fit-content !important;
-    content: "Ylös/"
+    content: " Ylös"
 }
+
+.icon-enter-up2::after {
+    height: 25px !important;
+    padding: 3px !important;
+    color: #bb8866 !important;
+    font-family: Arial, sans-serif !important;
+    width: fit-content !important;
+    content: "/"
+}
+
 
 .icon-enter-up2 {
     height: 25px !important;
-    font-size: 12px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
     width: fit-content !important;
 }
 
 .icon-enter-down2::before {
     height: 25px !important;
+    font-family: Arial, sans-serif !important;
     width: fit-content !important;
-    content: "Alas]"
+    content: "Alas"
+}
+
+.icon-enter-down2::after {
+    height: 25px !important;
+    padding: 3px !important;
+    color: #bb8866 !important;
+    font-family: Arial, sans-serif !important;
+    width: fit-content !important;
+    content: "]"
 }
 
 .icon-enter-down2 {
     height: 25px !important;
-    font-size: 12px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
     width: fit-content !important;
     padding-right: 10px !important;
 }
 
 .nappi {
     width: fit-content !important;
+    font-family: Arial, sans-serif !important;
     padding: 2px !important;
     border: 0px solid #81a1c1 !important;
     height: 25px !important;
@@ -371,6 +420,7 @@ input, textarea, select {
 
 .bubble {
     background: rgba(255, 255, 255, .0) !important;
+    font-size: 8px !important;
     color: #880202 !important;
 }
 
@@ -443,3 +493,10 @@ progress {
     border: 1px #7a080a solid !important;
 }
 
+.nappi.merkki {
+    color: #bb8866; 
+}
+
+.nappi.merkki:hover {
+    color: #bb8866 !important; 
+}
