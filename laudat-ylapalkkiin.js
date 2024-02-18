@@ -1,5 +1,4 @@
 // ==UserScript==
-// ==UserScript==
 // @name        laudat-yläpalkkiin
 // @namespace   Violentmonkey Scripts
 // @match       https://ylilauta.org/*
@@ -51,5 +50,3 @@ navbar.insertBefore(buttonContainer, navbar.children[1]);
 navbar.insertBefore(createButton("[", "navbar-button", "merkki"), navbar.children[3]);
 navbar.insertBefore(createButton("Asetukset", "https://ylilauta.org/user/", "navbar-button"), navbar.children[4]);
 navbar.insertBefore(createButton("/", "navbar-button", "merkki"), navbar.children[5]);
-
-r.children[3]);
