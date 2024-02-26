@@ -18,6 +18,10 @@ sidebar .category-menu {
 justify-content: left;
 }
 
+* {
+    box-shadow: none !important;
+}
+
  html { font-family: Arial, sans-serif; }
 .post-meta .name { font-family: Arial, sans-serif !important ; }
 header h1 { font-size: 34px !important; }
@@ -37,7 +41,6 @@ body {
 #sidebar {
     background-color: rgba(255, 255, 255, .0) !important;
     font-size: 14px !important;
-    border-right: 1px solid #EFDDCC !important;
 }
 #sidebar a {
   color: #555500 !important;
@@ -238,13 +241,13 @@ input, textarea, select {
 }
 
 #navbar {
-    height: 25px !important;
+    height: fit-content !important;
     background-color: #FED8B4 !important;
 }    
 
 #navbar::before {
      background-color: #FED8B4 !important;
-     height: 25px;
+     height: fit-content;
 }
 
 .nappi {
@@ -309,210 +312,4 @@ input, textarea, select {
     font-size: 13px !important;
     font-family: Arial, sans-serif !important;
     width: fit-content !important;
-}
-
-.icon-bookmark2.followed-button::before {
-    height: 25px !important;
-    width: fit-content !important;
-    font-family: Arial, sans-serif !important;
-    font-size: 13px !important;
-    content: "Seuratut"
-}
-
-.icon-bookmark2.followed-button::after {
-    height: 25px !important;
-    padding: 3px !important;
-    color: #bb8866 !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-    content: "/"
-}
-
-.icon-bookmark2.followed-button {
-    height: 25px !important;
-    font-size: 13px !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-}
-
-.icon-enter-up2::before {
-    height: 25px !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-    content: " Ylös"
-}
-
-.icon-enter-up2::after {
-    height: 25px !important;
-    padding: 3px !important;
-    color: #bb8866 !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-    content: "/"
-}
-
-
-.icon-enter-up2 {
-    height: 25px !important;
-    font-family: Arial, sans-serif !important;
-    font-size: 13px !important;
-    width: fit-content !important;
-}
-
-.icon-enter-down2::before {
-    height: 25px !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-    content: "Alas"
-}
-
-.icon-enter-down2::after {
-    height: 25px !important;
-    padding: 3px !important;
-    color: #bb8866 !important;
-    font-family: Arial, sans-serif !important;
-    width: fit-content !important;
-    content: "]"
-}
-
-.icon-enter-down2 {
-    height: 25px !important;
-    font-family: Arial, sans-serif !important;
-    font-size: 13px !important;
-    width: fit-content !important;
-    padding-right: 10px !important;
-}
-
-.nappi {
-    width: fit-content !important;
-    font-family: Arial, sans-serif !important;
-    padding: 2px !important;
-    border: 0px solid #81a1c1 !important;
-    height: 25px !important;
-    font-size: 13px !important;
-    background-color:rgba(255, 255, 255, .0) !important;
-}
-.nappi:hover {
-    width: fit-content !important;
-    color: #133b5e !important;
-    padding: 2px !important;
-    border: 0px solid #81a1c1 !important;
-    height: 25px !important;
-    font-size: 13px !important;
-    background-color:rgba(255, 255, 255, .0) !important;
-}
-
-
-#sidebar {
-    &:not(.visible) { display: none !important; }
-    body:not(:has(&.visible)) { --sidebar-width: 0 }
-}
-
-.icon-menu { display: initial !important; }
-
-#shoutbox {
-    display: none !important
-}
-
-.post-button.icon-menu {
-    background:#133b5e !important;
-    color:#ffffff !important;
-    font-size:small !important;
-}
-
-.bubble {
-    background: rgba(255, 255, 255, .0) !important;
-    font-size: 8px !important;
-    color: #880202 !important;
-}
-
-.toggle-button {
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px;
-}
-
-.toggle-button::before {
-    content: "[";
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px;
-}
-
-.toggle-button::after {
-    content: "]";
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px;
-}
-
-.toggle-button.active {
-    color:#133b5e !important;
-    background: rgba(255, 255, 255, .0) !important;
-}
-
-.button.top-open-button {
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px !important;
-}
-
-.button.top-open-button::before {
-    content: "[";
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px;
-}
-
-.button.top-open-button::after {
-    content: "]";
-    background: rgba(255, 255, 255, .0) !important;
-    border: 0px;
-}
-
-.button.top-open-button:hover {
-    color: #133b5e !important;
-}
-
-.card.poll {
-    background-color:#F3E6DE !important;
-    border: 1px solid #7a080a !important;
-    border-radius: 0px !important;
-}
-
-.poll-option.result {
-    background-color:#F3E6DE !important;
-    border: 1px solid #7a080a !important;
-    border-radius: 0px !important;
-}
-
-progress {
-    border-radius: 0px !important;    
-}
-
-.card.thread.op-post.op {
-    background: #F3E6DE !important;
-    border: 1px #D9BFB7 solid !important;
-}
-
-.card.thread.op-post.op.own {
-    background: #F3E6DE !important;
-    border: 1px #7a080a solid !important;
-}
-
-.nappi.merkki {
-    color: #bb8866; 
-}
-
-.nappi.merkki:hover {
-    color: #bb8866 !important; 
-}
-
-.square-button.icon-bookmark2 {
-    background-color: #EEAA88 !important;
-    border: 1px #7a080a solid !important;
-}
-
-.button.return-to {
-    background: #EEAA88 !important;
-}
-
-.square-button.icon-cog {
-    background-color: #EEAA88 !important;
-    border: 1px #7a080a solid !important;
 }
